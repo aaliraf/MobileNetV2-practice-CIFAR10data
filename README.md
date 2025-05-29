@@ -1,1 +1,3 @@
 # MobileNetV2-practice-CIFAR10data
+
+I created this notebook as a part of experimenting with the existing deep learning architectures. More specifically, I coupled MobileNetV2 and a CNN architecture for image classification on the CIFAR-10 dataset. To increase the training efficiency, I utilized a GPU runtime on Google Colab. As demonstrated in the quantitative assessment part, the trained model yielded around 73% overall accuracy on unseen data after 20 epochs. This notebook is flexible and can easily be adapted to deploy alternative feature extraction architectures (e.g., ResNet or VGG) or classifier heads.
